@@ -17,6 +17,7 @@ public class SpriteMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //It will move the Beachball Sprite right constantly to set speed (1 unit)
         transform.position += Vector3.right * moveSpeed * Time.deltaTime;
     }
 }
